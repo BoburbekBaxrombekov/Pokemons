@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-logo-wrapper">
+                <img src="./img/pokemon_logo 1.png" alt="logo">
+            </div>
+            <nav>
+                <select id="mySelect">
+                    <option value="All">All</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Poison">Poison</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Flying">Flying</option>
+                    <option value="Water">Water</option>
+                    <option value="Bug">Bug</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Ground">Ground</option>
+                </select>
+                <form>
+                    <input type="text" placeholder="Search" id="input">
+                    <button type="submit">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M5 11C5 7.691 7.691 5 11 5C14.309 5 17 7.691 17 11C17 14.309 14.309 17 11 17C7.691 17 5 14.309 5 11ZM20.707 19.293L17.312 15.897C18.365 14.543 19 12.846 19 11C19 6.589 15.411 3 11 3C6.589 3 3 6.589 3 11C3 15.411 6.589 19 11 19C12.846 19 14.543 18.365 15.897 17.312L19.293 20.707C19.488 20.902 19.744 21 20 21C20.256 21 20.512 20.902 20.707 20.707C21.098 20.316 21.098 19.684 20.707 19.293Z"
+                                fill="black" />
+                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="3" width="19"
+                                height="18">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5 11C5 7.691 7.691 5 11 5C14.309 5 17 7.691 17 11C17 14.309 14.309 17 11 17C7.691 17 5 14.309 5 11ZM20.707 19.293L17.312 15.897C18.365 14.543 19 12.846 19 11C19 6.589 15.411 3 11 3C6.589 3 3 6.589 3 11C3 15.411 6.589 19 11 19C12.846 19 14.543 18.365 15.897 17.312L19.293 20.707C19.488 20.902 19.744 21 20 21C20.256 21 20.512 20.902 20.707 20.707C21.098 20.316 21.098 19.684 20.707 19.293Z"
+                                    fill="white" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <rect width="24" height="24" fill="black" />
+                            </g>
+                        </svg>
+                    </button>
+                </form>
+                <select id="select">
+                    <option value="random">Random</option>
+                    <option value="Aa-Zz">Aa-Zz</option>
+                    <option value="Zz-Aa">Zz-Aa</option>
+                </select>
+                <a class="submit" onclick="parent()">Button</a>
+            </nav>
+        </header>
+        <main>
+            <ul id="listParent"></ul>
+        </main>
+    </div>
+
+
+    <script src="./pokemons.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

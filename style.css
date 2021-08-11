@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFD845;
+    font-family: cursive;
+}
+.container{
+    width: 1318px;
+    margin: 0 auto;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    min-width: 307px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+li img{
+    width: 100px;
+    margin: 0 auto;
+}
+.imgWrap{
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+/************************************ Header styles ************************************/
+header{
+    padding: 30px 10px;
+}
+.header-logo-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo-wrapper{
+    object-fit: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+}
+nav form{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    display: flex;
+}
+nav form input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+nav form button{
+    border: none;
+    background-color: transparent;
+}
+nav form button svg{
+    padding-top: 5px;
+}
+nav select{
+    width: 260px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #000;
+    outline: none;
+}
+nav .submit{
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #000;
+    text-align: center;
+}
